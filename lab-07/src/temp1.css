@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    background-image: url("multimedia/mapa.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    align-items: center;
+}
+
+h1{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+}
+
+.contenido{
+    position: relative;
+    width: 750px;
+    overflow: auto;
+    background: #114B89;
+    border-radius: 10px;
+    margin: 0 auto;
+    margin-top: 20px;
+    padding: 20px 40px 40px 40px;
+}
+
+.contenido>p{
+    font-family: 'Shippori Mincho', serif;
+    font-size: 15px;
+    color: whitesmoke;
+}
+
+.imgp{
+    width: 700px;
+    height: 300px;
+    position: relative;
+    margin: 0 auto;
+    overflow: auto;
+    display: block;
+    text-align: -webkit-center;
+}
+
+.imgh{
+    width: 600px;
+    height: 280px;
+    border-radius: 5px;
+    margin-top: 20px;
+    background-image: url(https://www.seriefanatic.com/wp-content/uploads/2012/03/r079n6.jpg);
+}
+
+.contenido>figcaption{
+    font-family: 'Dancing Script', cursive;
+    font-size: 20px;
+    text-align: center;
+    color: #79C4EE;
+}
+
+.boton{
+    position: relative;
+    height: 30px;
+    text-decoration: none;
+    color: black;
+    background-color: #52BB24;
+    border-radius: 10px;
+    display: block;
+    text-align: -webkit-center;
+
+}
+
+.boton:hover{
+    color: #52BB24;
+    background-color: #93F369;
+    text-decoration: none;
+}
+
+.boton>a{
+    font-family: 'Bebas Neue', cursive;
+    font-size: 20px;
+    text-align: center;
+}
